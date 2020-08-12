@@ -1,70 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="top">
+    <div class="t-left">
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <h3 style="width: 60%;">Build The Community Your Fans Will Love</h3>
 
-  Try It Free
+      <p style="width: 40%; padding: 1%;"> Huddle re-imagines the way we build communities. You have a voice, but so
+        does your audience.
+        Create connections with your users as you engage in genuine discussion.</p>
 
-  Build The Community Your Fans Will Love
+      <button class="get"> Get Started For Free</button>
+    </div>
+    <div class="t-right"><img class="mockup" src="images/illustration-mockups.svg" alt="mockup">
+      <button class="try"> Try It Free</button></div>
+  </div>
+  <div class="middle">
+    <div class="a">
+      <div>
+        <h3>Grow Together</h3>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+        <p> Generate meaningful discussions with your audience and build a strong, loyal community.
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+      <div class="i"><img class="grow" src="images/illustration-grow-together.svg" alt="grow"></div>
+    </div>
+    <div class="a">
+      <div><img class="grow" src="images/illustration-flowing-conversation.svg" alt="flow"></div>
+      <div>
+        <h3> Flowing Conversations</h3>
 
-  Get Started For Free
+        <p> You wouldn't paginate a conversation in real life, so why do it online? Our threads
+          have just-in-time loading for a more natural flow.</p>
+      </div>
+    </div>
+    <div class="a">
+      <div>
+        <h3> Your Users</h3>
 
-  Grow Together
+        <p> It takes no time at all to integrate Huddle with your app's authentication solution.
+          This means, once signed in to your app, your users can start chatting immediately.</p>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
 
-  Flowing Conversations
+      </div>
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+      <div><img class="grow" src="images/illustration-your-users.svg" alt="users"></div>
+    </div>
+    <div class="float">
+      <h3 class="f"> Ready To Build Your Community?</h3>
+      <button class="get2"> Started For Free</button>
+    </div>
+  </div>
+  <div class="bottom">
 
-  Your Users
+    <div class="i">
+      <img src="images/logo.svg" alt="logo" style="width: 100%;">
+      <ion-list>
+        <ion-icon name="location-outline"></ion-icon>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor
+        incididunt ut labore et dolore magna aliquax<br>
+        <ion-icon name="call-outline"></ion-icon>+1-543-123-4567<br>
+        <ion-icon name="mail-outline"></ion-icon> example@huddle.com<br>
+      </ion-list>
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
+    </div>
+    <div class="i">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#"> What We Do</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="i">
+      <ul>
+        <li><a href="#">Career</li></a>
+        <li><a href="#">Blog</li></a>
+        <li><a href="#">Contact Us</li></a>
+      </ul>
+    </div>
+    <div class="i">
+      <div class="bt">
+        <ion-icon name="logo-facebook" size:"large"></ion-icon>
+        <ion-icon name="logo-twitter" size:"large"></ion-icon>
+        <ion-icon name="logo-instagram" size:"large"></ion-icon>
+      </div>
+      <div class="bb">
+        &copy; Copyright 2018 Huddle. All rights reserved.
+      </div>
+    </div>
 
-  Ready To Build Your Community?
 
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
+  </div>
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Vivek M M</a>.
     </p>
   </footer>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
+
 </html>

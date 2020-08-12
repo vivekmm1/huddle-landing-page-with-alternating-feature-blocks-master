@@ -1,0 +1,226 @@
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    padding: 10px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top {
+    padding: 2%;
+    background-image: url("images/bg-hero-desktop.svg");
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.get {
+
+    margin-left: 10%;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    display: flexbox;
+    box-shadow: 2px 2px 2px hsl(322, 53%, 44%);
+
+}
+
+.get2 {
+    margin-left: 15%;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    display: flexbox;
+    box-shadow: 2px 2px 2px hsl(322, 53%, 44%);
+}
+
+.mockup {
+    margin-top: 10%;
+    width: 75%;
+    float: left;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.try {
+    width: 15%;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    display: flexbox;
+    box-shadow: 2px 2px 2px rgb(185, 175, 175);
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.a {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 5%;
+    display: flexbox;
+    box-shadow: 2px 2px 2px 2px rgb(187, 180, 180);
+}
+
+.t {
+    width: 60%;
+}
+
+.i {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grow {
+    padding-left: 0%;
+    width: 50%;
+}
+
+.bottom {
+    margin-top: 20%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+.bt {
+    text-align: center;
+    height: 50%;
+}
+
+.bb {
+    text-align: center;
+}
+
+ion-icon {
+    font-size: 20px;
+}
+
+.float {
+    width: 25%;
+    height: 15%;
+    padding: 5%;
+    display: flexbox;
+    box-shadow: 2px 2px 2px 2px rgb(187, 180, 180);
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 30%;
+
+
+}
+
+@media screen and (max-width:850px) {
+    body {
+        font-size: 13px;
+        align-items: center;
+    }
+
+    .top {
+        flex-direction: column;
+        background-image: url("images/bg-hero-mobile.svg");
+    }
+
+    .a {
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .bottom {
+
+        margin-top: 22%;
+    }
+
+    .float {
+        width: 35%;
+        left: 20%;
+
+    }
+
+}
+
+@media screen and (max-width:745px) {
+
+    .bottom {
+
+        margin-top: 25%;
+    }
+
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .bottom {
+
+        margin-top: 30%;
+    }
+
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    .bottom {
+        flex-direction: column;
+        margin-top: 35%;
+    }
+
+
+
+}
+
+@media screen and (max-width:375px) {
+    .f {
+        font-size: 13px;
+    }
+
+    .a {
+        margin-left: 5%;
+    }
+}
